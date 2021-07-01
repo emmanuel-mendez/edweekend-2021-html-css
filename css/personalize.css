@@ -4,9 +4,5 @@
  flex-direction: column;
  align-items: center;
  justify-content: center;
- font-family: system-ui;
- font-size: 1.5rem;
- background: #3D6981;
- color: white;
- border-radius: .25rem;
+ font-size: var(--fontSize);
 }

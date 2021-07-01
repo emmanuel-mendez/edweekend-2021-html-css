@@ -1,0 +1,31 @@
+.header {
+ grid-area: header;
+}
+
+.nav {
+ grid-area: nav;
+}
+
+.content {
+ grid-area: content;
+}
+
+.section-1 {
+ grid-area: section-1;
+}
+
+.section-2 {
+ grid-area: section-2;
+}
+
+.section-3 {
+ grid-area: section-3;
+}
+
+.section-4 {
+ grid-area: section-4;
+}
+
+.section-5 {
+ grid-area: section-5;
+}

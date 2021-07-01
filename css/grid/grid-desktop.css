@@ -1,0 +1,25 @@
+/* DESKTOP */
+@media screen and (min-width: 1024px) {
+
+ /* Grid */
+ .grid {
+  grid-template-rows: var(--headerHeight) 1fr;
+  grid-template-columns: minmax(var(--asideDesktopWidth), auto) 1fr;
+  grid-template-areas:
+   "header header"
+   "nav content"
+  ;
+ }
+
+
+ /* Content */
+ .content {
+  grid-template-rows: repeat(3, minmax(var(--sectionDesktopHeight), auto));
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+   "section-5 section-5 section-3 section-3"
+   "section-5 section-5 section-2 section-1"
+   "section-5 section-5 section-2 section-4"
+  ;
+ }
+}

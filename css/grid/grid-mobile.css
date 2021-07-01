@@ -1,0 +1,54 @@
+/* MOBILE */
+.grid {
+ display: grid;
+ grid-template-rows: var(--headerHeight) var(--asideHeight) 1fr;
+ grid-template-columns: 1fr;
+ grid-template-areas:
+  "header"
+  "aside"
+  "content"
+ ;
+ min-height: 100%;
+}
+
+
+/* Header */
+.header {
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ padding: 0 var(--gap);
+ background-color: var(--headerBackgroundColor);
+}
+
+.header>div {
+ visibility: hidden;
+}
+
+.aside {
+ background-color: var(--asideBackgroundColor);
+}
+
+/* Content */
+.content {
+ display: grid;
+ grid-template-rows: repeat(6, minmax(var(--sectionHeight), auto));
+ grid-template-columns: repeat(2, 1fr);
+ grid-template-areas:
+  "section-5 section-5"
+  "section-5 section-5"
+  "section-5 section-5"
+  "section-3 section-3"
+  "section-2 section-1"
+  "section-2 section-4"
+ ;
+ gap: var(--gap);
+ width: 100%;
+ padding: var(--gap);
+ margin: 0 auto;
+ background-color: var(--contentBackgroundColor);
+}
+
+.section {
+ background-color: var(--sectionBackgroundColor);
+}
