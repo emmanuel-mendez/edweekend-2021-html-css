@@ -1,14 +1,17 @@
 /* Variables */
 :root {
  --fontSize: 1.768rem;
+ --sectionFontSize: 2.25rem;
+ --desktopSectionFontSize: 4rem;
  --color: #FFFFFF;
 
  --headerHeight: 4rem;
  --asideHeight: 4rem;
  --sectionHeight: 2rem;
- --gap: 2rem;
- --asideDesktopWidth: 13.25rem;
  --sectionDesktopHeight: 10.813rem;
+ --asideDesktopWidth: 13.25rem;
+ --gap: 1rem;
+ --desktopGap: 2rem;
 
  --headerBackgroundColor: #867AE9;
  --asideBackgroundColor: #D83A56;
