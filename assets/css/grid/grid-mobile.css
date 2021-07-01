@@ -50,5 +50,6 @@
 }
 
 .section {
+ font-size: var(--sectionFontSize);
  background-color: var(--sectionBackgroundColor);
 }

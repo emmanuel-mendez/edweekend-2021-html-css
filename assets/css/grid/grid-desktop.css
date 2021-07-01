@@ -11,6 +11,10 @@
   ;
  }
 
+ .header {
+  padding: 0 var(--desktopGap);
+ }
+
 
  /* Content */
  .content {
@@ -21,5 +25,11 @@
    "section-5 section-5 section-2 section-1"
    "section-5 section-5 section-2 section-4"
   ;
+  gap: var(--desktopGap);
+  padding: var(--desktopGap);
+ }
+
+ .section {
+  font-size: var(--desktopSectionFontSize);
  }
 }
