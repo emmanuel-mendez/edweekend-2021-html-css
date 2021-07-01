@@ -10,18 +10,22 @@
  grid-area: content;
 }
 
-.section {
- grid-area: section;
+.section-1 {
+ grid-area: section-1;
 }
 
-.article {
- grid-area: article;
+.section-2 {
+ grid-area: section-2;
 }
 
-.aside {
- grid-area: aside;
+.section-3 {
+ grid-area: section-3;
 }
 
-.footer {
- grid-area: footer;
+.section-4 {
+ grid-area: section-4;
+}
+
+.section-5 {
+ grid-area: section-5;
 }
